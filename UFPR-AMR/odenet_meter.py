@@ -182,7 +182,7 @@ def get_meter_loaders(data_aug=False, batch_size=128, test_batch_size=1000, perc
     imagenet_data_test = datasets.ImageFolder('cropped/testing/', transform=transform_test)
     imagenet_data_eval = datasets.ImageFolder('cropped/validation/', transform=transform_test)
 
-    train_loader = DataLoader(imagenet_data_train, batch_size=test_batch_size, shuffle=True, num_workers=2)
+    train_loader = DataLoader(imagenet_data_train, batch_size=batch_size, shuffle=True, num_workers=2)
     train_eval_loader = DataLoader(imagenet_data_test, batch_size=test_batch_size, shuffle=False, num_workers=2)
     test_loader = DataLoader(imagenet_data_eval, batch_size=test_batch_size, shuffle=False, num_workers=2)
 
