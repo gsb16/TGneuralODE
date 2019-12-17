@@ -7,9 +7,9 @@ pip install git+https://github.com/rtqichen/torchdiffeq
 
 As duas bases de dados estão disponíveis em:
 
-UFPR-ALPR: (https://drive.google.com/file/d/154f5NALWysmhXmrWnNUjjnd4IrME2cpS/view?usp=sharing)
+UFPR-ALPR: (https://web.inf.ufpr.br/vri/databases/ufpr-alpr/)
 
-UFPR-AMR: (https://drive.google.com/file/d/1ewH_x58NaG3joEy4SeKc3gAON6LstYnM/view?usp=sharing)
+UFPR-AMR: (https://web.inf.ufpr.br/vri/databases/ufpr-amr/)
 
 - Extrair as bases de dados no respectivo diretório
 
