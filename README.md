@@ -1,5 +1,7 @@
 # TGneuralODE
 
+## O PDF do documento escrito feito para o TG está disponível no respositório
+
 Para instalar:
 ```
 pip install git+https://github.com/rtqichen/torchdiffeq
